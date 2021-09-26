@@ -1,0 +1,71 @@
+.headers{
+    font-family: cursive;
+    font-size: 16px;
+    background-color: aliceblue;
+    padding:20px 10px;
+    overflow:hidden;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+    float: left;
+}
+.headers a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: cursive;
+}
+.brandname{
+    text-decoration: none;
+    float: left;
+    text-shadow: 10px;
+}
+.headers a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .headers a.active {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 20%;
+  }
+  .header-right {
+    float: right;
+  }
+  div{
+      display: block;
+  }
+
+  a{
+      border-radius: 20%;
+  }
+
+#frontimage{
+    padding: 5px;
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+}
+
+@media{
+    .headers .container (max-width: 767px){
+        font-size: 5vw;
+        
+    }
+    .header-right (min-width: 768px){
+        width: 5px;
+
+    }
+}
+
+
+
+
+
